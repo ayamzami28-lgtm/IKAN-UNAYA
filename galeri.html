@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Aktivitas - I K A N UNAYA</title>
+    <link rel="stylesheet" href="galeri.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Galeri Aktivitas</h1>
+    <p>Dokumentasi Kegiatan Mahasiswa Perikanan Universitas Abulyatama</p>
+</header>
+
+<div class="navbar">
+    <button onclick="toggleMenu()">☰ Menu</button>
+</div>
+<div>
+    <nav id="menu" class="menu">
+        <a href="profilmahasiswa.html">Profil Mahasiswa</a>
+        <a href="index.html">Beranda</a> 
+        <div class="dropdown">
+            <button class="dropbtn" onclick="toggleDropdown(event)">Tentang Perikanan 🐟</button>
+            <div class="dropdown-content" id="dropdownMenu">
+                <a href="#" onclick="maintenancePopup(); return false;">Teknik Penangkapan Ikan</a>
+                <a href="BP.html">Budidaya Perairan</a>
+                <a href="#" onclick="maintenancePopup(); return false;">Pemanfaatan Sumber Daya Perikanan</a>
+            </div>
+        </div>
+        <a href="galeri.html">Galeri Aktivitas</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+</div>
+<div class="gallery-container">
+
+    <div class="gallery-title">
+        <h2>Galeri Kegiatan</h2>
+        <p>Berbagai aktivitas akademik dan lapangan Program Studi Perikanan.</p>
+    </div>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item">
+            <img src="IKAN UNAYA/20241019_151613.jpg" alt="kelas">
+            <div class="gallery-caption">
+                <h3>suasana kelas</h3>
+                <p>kegiatan pembelajaran mahasiswa perikanan</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="IKAN UNAYA/20250704_112302.jpg" alt="Bioflok">
+            <div class="gallery-caption">
+                <h3>Pengelolaan Kolam Bioflok</h3>
+                <p>Pendampingan dan pengelolaan kolam sistem bioflok.</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="IKAN UNAYA/20260222_090924.jpg" alt="KKN">
+            <div class="gallery-caption">
+                <h3>Kegiatan KKN</h3>
+                <p>Mahasiswa melakukan sosialisasi kepada masyarakat pesisir.</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="IKAN UNAYA/20250808_100849.jpg" alt="Praktikum">
+            <div class="gallery-caption">
+                <h3>Praktikum</h3>
+                <p>Kegiatan Praktikum budidaya perikanan.</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 I K A N UNAYA - Universitas Abulyatama</p>
+</footer>
+
+</body>
+</html>

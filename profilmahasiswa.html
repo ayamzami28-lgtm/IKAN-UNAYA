@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I K A N UNAYA - Informasi Kegiatan Perikanan Universitas Abulyatama</title>
+    <link rel="stylesheet" href="profilmahasiswa.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+    <h1>Profil Mahasiswa</h1>
+</header>
+
+<div class="navbar">
+    <button onclick="toggleMenu()">☰ Menu</button>
+</div>
+<div>
+    <nav id="menu" class="menu">
+        <a href="profilmahasiswa.html">Profil Mahasiswa</a>
+        <a href="index.html">Beranda</a> 
+        <div class="dropdown">
+            <button class="dropbtn" onclick="toggleDropdown(event)">Tentang Perikanan 🐟</button>
+            <div class="dropdown-content" id="dropdownMenu">
+                <a href="#" onclick="maintenancePopup(); return false;">Teknik Penangkapan Ikan</a>
+                <a href="BP.html">Budidaya Perairan</a>
+                <a href="#" onclick="maintenancePopup(); return false;">Pemanfaatan Sumber Daya Perikanan</a>
+            </div>
+        </div>
+        <a href="galeri.html">Galeri Aktivitas</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+</div>
+    <div class="container">
+        <img src="IKAN UNAYA/IMG_20230318_113707.jpg" alt="Foto Profil" class="profile-img">
+
+        <h1>ZAMI</h1>
+        <p>
+            Halo! Saya hanya seseorang mahasiswa yang tertarik pada hal hal kecil.
+            keinginan saya adalah bisa merajut hal hal kecil tersebut menjadi sesuatu yang besar 
+        </p>
+
+        <div class="info">
+            <p><strong>Nama:</strong> Zamzami Abrar Lubis</p>
+            <p><strong>Alamat:</strong> Banda Aceh, Indonesia</p>
+            <p><strong>Email:</strong> ayamzami28@gmail.com</p>
+            <p><strong>No HP:</strong> 0895700561834</p>
+            <p><strong>Hobi:</strong> sessuatu yang bermanfaat bagi sendiri </p>
+        </div>
+
+</body>
+</html>

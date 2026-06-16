@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I K A N UNAYA - Informasi Kegiatan Perikanan Universitas Abulyatama</title>
+    <link rel="stylesheet" href="kontak.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Kontak Kami</h1>
+        <p>I K A N UNAYA - Informasi Kegiatan Perikanan Universitas Abulyatama</p>
+    </header>
+
+<div class="navbar">
+    <button onclick="toggleMenu()">☰ Menu</button>
+</div>
+<div>
+    <nav id="menu" class="menu">
+        <a href="profilmahasiswa.html">Profil Mahasiswa</a>
+        <a href="index.html">Beranda</a> 
+        <div class="dropdown">
+            <button class="dropbtn" onclick="toggleDropdown(event)">Tentang Perikanan 🐟</button>
+            <div class="dropdown-content" id="dropdownMenu">
+                <a href="#" onclick="maintenancePopup(); return false;">Teknik Penangkapan Ikan</a>
+                <a href="BP.html">Budidaya Perairan</a>
+                <a href="#" onclick="maintenancePopup(); return false;">Pemanfaatan Sumber Daya Perikanan</a>
+            </div>
+        </div>
+        <a href="galeri.html">Galeri Aktivitas</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+</div>
+
+    <div class="contact-container">
+
+    <div class="contact-info">
+
+        <h2>Informasi Kontak</h2>
+
+        <section class="map-section">
+    <p><strong>📍 Lokasi Program Studi Perikanan UNAYA</strong></p>
+
+    <iframe
+        src="https://www.google.com/maps?q=5.532892829201175,95.38777152394381"
+        width="40%"
+        height="120"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</section>
+
+</div>
+
+        <p><strong>📞 Telepon:</strong><br>
+        +62 99 999 999</p>
+
+        <p><strong>📧 Email:</strong><br>
+        aaaa@@@@.com</p>
+
+        <p><strong>🌐 Website:</strong><br>
+        ikanunaya.com</p>
+
+        <p><strong>📱 Media Sosial:</strong><br>
+        Instagram : @ikan_unaya<br>
+        Facebook : Ikan Unaya</p>
+
+    </div>
+
+    <div class="contact-form">
+
+        <h2>Kirim Pesan</h2>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Nama Lengkap"
+                required>
+
+            <input
+                type="email"
+                placeholder="Email"
+                required>
+
+            <input
+                type="text"
+                placeholder="Subjek"
+                required>
+
+            <textarea
+                placeholder="Tulis pesan Anda..."
+                required></textarea>
+
+            <button type="submit">
+                Kirim Pesan
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+    <footer>
+        <p>&copy; 2026 I K A N UNAYA - Universitas Abulyatama</p>
+    </footer>
+
+</body>
+</html>
